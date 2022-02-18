@@ -88,7 +88,7 @@
 }
 
 - (void)setTextValue:(CGFloat)number {
-  self.text = [NSString stringWithFormat:@"%.1f", number];
+  self.text = [NSString stringWithFormat:@"%.0f", number];
 }
 
 - (void)countFrom:(CGFloat)from to:(CGFloat)to duration:(CGFloat)duration {
